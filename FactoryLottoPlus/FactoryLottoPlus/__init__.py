@@ -82,6 +82,6 @@ def genera_dati_lotti(num_operatori=2):
 # Per test veloce
 if __name__ == "__main__":
     dati = genera_dati_lotti(num_operatori=2)
-    #for riga in dati:
-       # print(riga)
+    for riga in dati:
+        print(riga)
         
