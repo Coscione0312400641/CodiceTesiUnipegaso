@@ -1,7 +1,7 @@
 '''
 Created on 23 giu 2025
 
-@author: gianp
+@author: Daniele
 '''
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
@@ -54,3 +54,4 @@ def aggiorna_grafico(n_clicks):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
